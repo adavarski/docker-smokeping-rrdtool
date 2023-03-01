@@ -1,0 +1,53 @@
+*** Targets ***
+
+probe = FPing
+
+menu = Top
+title = Network Latency Grapher
+remark = Welcome to the SmokePing website of Example Company. \
+         Here you will learn all about the latency of our network.
+
++ InternetSites
+
+menu = Internet Sites
+title = Internet Sites
+
+++ dir
+menu = dir.bg
+title = dir.bg
+host = www.dir.bg
+
+++ microsoft
+menu = microsoft.com
+title = microsoft.com
+host = www.microsoft.com
+
+++ atscale
+menu = atscale.com
+title = atscale.com
+host = www.atscale.com
+
+++ opennet
+menu = opennet.ru
+title = opennet.ru
+host = www.opennet.ru
+
+++ github
+menu = github.com
+title = github.com
+host = www.github.com
+
+
++ US
+
+menu = US Connectivity
+title =  US Connectivity
+
+++ US_California
+menu = US California
+title = The Motherland
+
+++ US_Boston
+menu = US Boston
+title = The Fatherland
+

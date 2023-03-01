@@ -1,0 +1,18 @@
+---
+version: "2"
+services:
+  smokeping:
+    image: davarski/smokeping
+    container_name: smokepingrrd
+    environment:
+      - TZ=Europe/Sofia
+    volumes:
+      - ./config:/config
+      - smokeping-data:/data
+    ports:
+      - 8080:80
+    restart: unless-stopped
+
+volumes:
+  smokeping-data:
+    driver: local
