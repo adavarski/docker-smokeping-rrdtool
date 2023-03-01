@@ -62,9 +62,9 @@ docker run -d \
 ```
 docker-compose up -d
 ```
-<img src="pictures/smokeping-rrdtool-charts.png?raw=true" width="800">
+<img src="pictures/smokeping-rrdtool-charts.png?raw=true" width="900">
 
-<img src="pictures/smokeping-rrdtool.png?raw=true" width="800">
+<img src="pictures/smokeping-rrdtool.png?raw=true" width="900">
 
 
 ## Parameters
